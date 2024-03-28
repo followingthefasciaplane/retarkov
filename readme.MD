@@ -37,7 +37,7 @@ markov chains model text generation from a corpus. `markovify` is used for model
 ## commands
 
 - `!setchannel`: set the channel we store msgs from / respond in (maybe set this manually)
-- `!reload`: retrain all models with new stored messages since last reload
+- `!reload`: retrain all models with new stored messages since last reload (currently yhis retrains from SCRATCH each time.) be aware
 - `!import [limit]`: train models on recent messages (up to 100 due to rate limits, this probs shouldnt exist)
 - `!settagweight [tag] [weight]`: adjust tag weights for response calculation
 - `!setbaseprobability [probability]`: adjust the base response probability
